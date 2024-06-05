@@ -45,7 +45,10 @@ start = time.time()
 
 ctr = 0
 for arr in cropped_images:
-  if ctr > 2500: break
+  if ctr > 3000: break
+  if ctr < 2500:
+    ctr += 1
+    continue
 
   for img in arr:
     img = img.resize((128, 128))
