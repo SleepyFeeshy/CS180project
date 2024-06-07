@@ -31,8 +31,8 @@ def extract_image(image_annotation_csv, src_path, dst_path, start, end):
     print(endTime - startTime)
     print("done")
 
-extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_train_2100", 0, 2100) # training dataset
+#extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_train_2100", 0, 2100) # training dataset
 
-extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_valid_600", 2100, 2700) # validation dataset
+#extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_valid_600", 2100, 2700) # validation dataset
 
-extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_test_300", 2700, 3000) # validation dataset
+#extract_image("img_ann_noid.csv", "Car Counting.v1i.coco/train", "big_test_300", 2700, 3000) # testing dataset

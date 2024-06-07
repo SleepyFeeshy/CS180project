@@ -59,7 +59,7 @@ def crop_images_from_csv(img_anno_csv, img_csv, src_path, dst_path, img_size):
 
   print("Done")
 
-crop_images_from_csv("image_and_annotations.csv", "image.csv", "Car Counting.v1i.coco/train", "train_224x224", 224)
+crop_images_from_csv("image_and_annotations.csv", "image.csv", "Car Counting.v1i.coco/train", "train_128x128", 128)
 
-crop_images_from_csv("test_img_and_anno.csv", "test_img.csv", "Car Counting.v1i.coco/test", "test_224x224", 224)
+crop_images_from_csv("test_img_and_anno.csv", "test_img.csv", "Car Counting.v1i.coco/test", "test_128x128", 128)
 
